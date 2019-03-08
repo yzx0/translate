@@ -1,7 +1,11 @@
 const app = getApp()
 Page({
   data: {
+    currentLanguageFrom: {},
     langList: app.globalData.langList
+  },
+  onShow() {
+    this.setData({ currentLanguageFrom: app.globalData.currentLanguageFrom })
   },
   changeLanguageFrom(e) {
     let temp = e.currentTarget.dataset

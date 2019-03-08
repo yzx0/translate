@@ -7,7 +7,6 @@ App({
     wx.setStorageSync('logs', logs)
   },
   globalData: {
-    translateText:'',
     currentLanguageTo:{
       'chs': '英文',
       "lang": 'en'

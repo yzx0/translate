@@ -14,7 +14,7 @@
     </view>
   </view>
   <view class="inputArea">
-    <textarea bindblur='onBlur' bindinput='onInput' value="{{query}}" placeholder="请输入要翻译的内容" placeholder-style='font-size:20rpx;'></textarea>
+    <textarea bindblur='onBlur' bindconfirm='translateText' bindinput='onInput' value="{{query}}" placeholder="请输入要翻译的内容" placeholder-style='font-size:20rpx;'></textarea>
     <view class='closeIcon' wx:if="{{isClear}}" bindtap='clearText'></view>
   </view>
   <view class="outputArea" wx:if="{{isShow}}">

@@ -1,8 +1,18 @@
+
 .langList{
-  display: block;
+  display: flex;
+  justify-content: space-between;
   padding: 10rpx;
   margin: 5rpx;
   background-color: #1e88da;
   border-radius: 3px;
   color: white;
+  padding: auto 1px;
+
+}
+.checkIcon{
+  width: 50rpx;
+  height: 50rpx;
+  background-image: url("data:image/svg+xml,%3C?xml version='1.0' standalone='no'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg t='1552031974781' class='icon' style='' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='934' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='200'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E%3C/style%3E%3C/defs%3E%3Cpath d='M851.2 172.8C662.4-16 358.4-16 172.8 172.8c-188.8 188.8-188.8 492.8 0 678.4 188.8 188.8 492.8 188.8 678.4 0s188.8-489.6 0-678.4z m-44.8 633.6c-163.2 163.2-425.6 163.2-588.8 0-163.2-163.2-163.2-425.6 0-588.8 163.2-163.2 425.6-163.2 588.8 0 163.2 163.2 163.2 425.6 0 588.8z' fill='%23ffffff' p-id='935'%3E%3C/path%3E%3Cpath d='M825.6 297.6c-12.8-12.8-32-12.8-44.8 0L419.2 656 243.2 480c-12.8-12.8-32-12.8-44.8 0-12.8 12.8-12.8 32 0 44.8l198.4 198.4c12.8 12.8 32 12.8 44.8 0l384-384c12.8-9.6 12.8-28.8 0-41.6z' fill='%23ffffff' p-id='936'%3E%3C/path%3E%3C/svg%3E");
+  background-size: cover;
 }

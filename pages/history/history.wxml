@@ -1,6 +1,6 @@
 <view class="container">
   <view class='wrapper'>
-    <view class='historyList' wx:for="{{history}}" wx:key="index">
+    <view class='historyList' wx:for="{{history}}" wx:key="index" bindtap='gotoIndex' data-query='{{item.query}}'>
       <text>{{item.query}}</text>
       <text>{{item.result}}</text>
     </view>

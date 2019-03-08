@@ -1,5 +1,6 @@
 <view class="container">
-  <text wx:for="{{langList}}" wx:key='index' class='langList' data-chs='{{item.chs}}' data-lang='{{item.lang}}' bindtap='changeLanguageFrom'>
-    {{item.chs}}
-  </text>
+  <view class='langList' wx:for="{{langList}}" wx:key='index' class='langList' data-chs='{{item.chs}}' data-lang='{{item.lang}}' bindtap='changeLanguageFrom'>
+    <text>{{item.chs}}</text>
+    <text class='checkIcon' wx:if="{{currentLanguageFrom.chs === item.chs}}"></text>
+  </view>
 </view>
