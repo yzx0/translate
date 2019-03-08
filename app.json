@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/changeLanguage/changeLanguage",
+    "pages/history/history",
+    "pages/logs/logs",
+    "pages/changeLanguageFrom/changeLanguageFrom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e88da",
+    "navigationBarTitleText": "翻译小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ],
+    "position": "top",
+    "selectedColor":"#1e88da"
+  }
+}

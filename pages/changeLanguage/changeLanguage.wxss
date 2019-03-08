@@ -1,0 +1,8 @@
+.langList{
+  display: block;
+  padding: 10rpx;
+  margin: 5rpx;
+  background-color: #1e88da;
+  border-radius: 3px;
+  color: white;
+}

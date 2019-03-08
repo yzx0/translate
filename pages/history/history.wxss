@@ -1,0 +1,12 @@
+.historyList{
+  font-size: 30rpx;
+  color: white;
+  background-color: #1e88da;
+  margin: 10rpx;
+  padding: 10rpx;
+  border-radius: 5px;
+}
+.historyList text{
+  display: block;
+  padding: 5rpx;
+}

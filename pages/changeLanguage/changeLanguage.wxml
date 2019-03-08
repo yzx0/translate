@@ -1,0 +1,5 @@
+<view class="container">
+  <text wx:for="{{langList}}" wx:key='index' class='langList' data-chs='{{item.chs}}' data-lang='{{item.lang}}' bindtap='changeLanguageTo'>
+    {{item.chs}}
+  </text>
+</view>

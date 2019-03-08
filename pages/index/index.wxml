@@ -1,0 +1,24 @@
+<view class="container translate">
+  <view class="changeLanguage">
+    <view class='wrapper'>
+      <navigator url="../changeLanguageFrom/changeLanguageFrom" class='from'>
+        {{currentLanguageFrom.chs}}
+        <text class='iconDown'></text>
+      </navigator>
+    </view>
+    <view class='wrapper'>
+      <navigator url="../changeLanguage/changeLanguage" class='to'>
+        {{currentLanguageTo.chs}}
+        <text class='iconDown'></text>
+      </navigator>
+    </view>
+  </view>
+  <view class="inputArea">
+    <textarea bindblur='onBlur' bindinput='onInput' value="{{query}}" placeholder="请输入要翻译的内容" placeholder-style='font-size:20rpx;'></textarea>
+    <view class='closeIcon' wx:if="{{isClear}}" bindtap='clearText'></view>
+  </view>
+  <view class="outputArea" wx:if="{{isShow}}">
+    <text class="languageText">{{currentLanguageTo.chs}}</text>
+    <text class="resultText">{{result}}</text>
+  </view>
+</view>

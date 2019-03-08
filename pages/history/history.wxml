@@ -1,0 +1,8 @@
+<view class="container">
+  <view class='wrapper'>
+    <view class='historyList' wx:for="{{history}}" wx:key="index">
+      <text>{{item.query}}</text>
+      <text>{{item.result}}</text>
+    </view>
+  </view>
+</view>
